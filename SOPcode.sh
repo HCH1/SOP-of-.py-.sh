@@ -74,14 +74,3 @@ dir
 find /v "word" path
 type
 fc /l "file1" "file2"
-##
-#!/bin/bash
-PATH=/tdhome/hunghc/demo1010web
-export PATH
-echo -e "Hello World! \a \n"
-read -p "Please input your first name: " firstname      # 提示使用者輸入
-read -p "Please input your last name:  " lastname       # 提示使用者輸入
-echo -e "\nYour full name is: ${firstname} ${lastname}" # 結果由螢幕輸出
-exit 0
-##
-
